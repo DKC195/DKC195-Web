@@ -1,7 +1,8 @@
 @import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css");
 
 footer {
-  
+  background-color: rgba(34, 34, 34);
+  padding: 10px;
 }
 
 footer>a{
@@ -20,10 +21,20 @@ footer>div.row {
 }
 
 footer div.social-icns {
+  display: flex;
+  justify-content: space-evenly;
   margin: 5px auto;
+  padding: 0 0 100px 0;
+  width: 400px;
 }
 
-footer div.social-icns {
-  
+footer div.social-icns>a {
+  height: 22px;
+  width: 22px;
+  padding: 16px 19px 19px 19px;
+  border-radius: 50%;
+  background-color: rgb(66, 52, 52);
+  color: white;
+  font-size: 22px;
 }
 
