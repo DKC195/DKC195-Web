@@ -1,0 +1,11 @@
+:root {
+  /* Root */
+ --bg: #FFFFFF;
+
+ /* Nav Bar */
+ --nav-bg: #0000002d;
+}
+
+:root.dark {
+  --bg-color: #000000;
+}
