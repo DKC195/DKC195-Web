@@ -1,0 +1,13 @@
+nav {
+  display: flex;
+  flex-flow: row;
+  width: 100%;
+  background-color: var(--nav-bg);
+  justify-content: center;
+}
+
+nav a {
+  padding: 2.5px;
+  text-decoration: none;
+  
+}
