@@ -1,9 +1,10 @@
 :root {
   /* Root */
- --bg: #FFFFFF;
+  --bg: rgba(43, 43, 43);
 
- /* Nav Bar */
- --nav-bg: #0000002d;
+  /* Nav Bar */
+  --nav-bg: rgba(0, 0, 0, 0.176);
+  --nav-txt: #FFFFFF;
 }
 
 :root.dark {
