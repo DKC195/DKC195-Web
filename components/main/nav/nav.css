@@ -2,11 +2,10 @@ nav {
   position: fixed;
   display: flex;
   flex-flow: row;
-  width: 100%;
+  width: calc(100% - 10px);
   background-color: var(--nav-bg);
   justify-content: center;
   border: 5px dashed var(--border-main1);
-
 }
 
 nav a {
@@ -14,7 +13,6 @@ nav a {
   color: var(--nav-txt);
   text-decoration: none;
   font-size: 14px;
-  
 }
 
 div.junk {

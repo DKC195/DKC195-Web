@@ -5,14 +5,16 @@ div.main1 {
   align-content: center;
   padding: 80px 50px ;
   height: 700px;
-  border: 5px dashed var(--border-main1);
+  background-color: var(--bg1);
+  border: 10px dashed var(--border-main1);
 }
 
 div.main2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  border: 5px dashed var(--border-main1);
+  background-color: var(--bg2);
+  border: 10px dashed var(--border-main2);
 }
 
 img#dkc195 {
