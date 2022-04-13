@@ -1,14 +1,27 @@
 nav {
   position: fixed;
-  display: flex;
-  flex-flow: row;
   width: calc(100% - 10px);
   background-color: var(--nav-bg);
   justify-content: center;
   border: 5px dashed var(--border-main1);
 }
 
-nav a {
+div#junk {
+  position: fixed;
+  width: 100vw;
+  height: 66px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+
+nav>div#content {
+  justify-content: center;
+  display: flex;
+  flex-flow: row;
+  z-index: 2;
+}
+
+nav>div>a {
   padding: 20px 10px;
   color: var(--nav-txt);
   text-decoration: none;
