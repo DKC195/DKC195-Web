@@ -2,9 +2,9 @@ div.main1 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  align-content: center;
-  padding: 80px 50px ;
-  height: 700px;
+  padding: 80px 50px;
+  height: calc(100vh - 180px);
+  color: var(--body-txt1);
   background-color: var(--bg1);
   border: 10px dashed var(--border-main1);
 }
@@ -13,6 +13,9 @@ div.main2 {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding: 80px 50px;
+  height: calc(100vh - 180px);
+  color: var(--body-txt2);
   background-color: var(--bg2);
   border: 10px dashed var(--border-main2);
 }
