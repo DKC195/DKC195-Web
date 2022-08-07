@@ -1,0 +1,45 @@
+div#skillbox>div {
+  border-radius: 20px;
+}
+
+div#skillbox>div#web {
+  display: flex;
+  flex-flow: column wrap;
+  align-content: center;
+  justify-content: center;
+  width: 200px;
+  padding: 10px;
+  background-color: #fff;
+  color: black;
+}
+
+div#web>div {
+  height: 50px;
+  border-radius: 10px;
+  color: #fff;
+  text-align: center;
+}
+
+div#web>div>p {
+  margin: 17px auto;
+}
+
+div#web>div#html {
+  width: 150px;
+  background-color: rgb(224, 110, 60);
+}
+
+div#web>div#css {
+  width: 100px;
+  background-color: rgb(57, 100, 232);
+}
+
+div#web>div#js {
+  width: 50px;
+  background-color: rgb(231, 191, 74);
+}
+
+div#web>div#svelte {
+  width: 200px;
+  background-color: rgb(235, 80, 39);
+}

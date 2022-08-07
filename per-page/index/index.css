@@ -35,3 +35,17 @@ div#intro {
   align-content: center;
   justify-content: center;
 }
+
+div#skills {
+  flex-flow: column;
+
+}
+
+div#skillbox {
+  display: flex;
+  flex-flow: row wrap;
+  align-content: space-between;
+  justify-content: space-between;
+  width: 100%;
+  margin: 10px;
+}
